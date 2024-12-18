@@ -17,15 +17,17 @@
     --fc-light-blue: #7C7DB9;
     --fc-sky: #48C3D7;
     --fc-blue-dark: #111235;
+    --fc-light-white: #C9CAD4;
+
 }
 
-@media (max-width:992px) {
+@media (max-width:991.98px) {
     :root {
         --fs-5xl: 58px;
     }
 }
 
-@media (max-width:768px) {
+@media (max-width:767.98px) {
     :root {
         --fs-3xl: 20px;
         --fs-4xl: 28px;
@@ -33,7 +35,7 @@
     }
 }
 
-@media (max-width:576px) {
+@media (max-width:575.98px) {
     :root {
         --fs-3xl: 18px;
         --fs-4xl: 22px;
@@ -41,7 +43,7 @@
     }
 }
 
-@media (max-width:400px) {
+@media (max-width:399.98px) {
     :root {
         --fs-lg: 11px;
     }
