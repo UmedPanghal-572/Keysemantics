@@ -363,14 +363,16 @@
     .mw-552 {
         max-width: 552px;
     }
-}
 
-/* @media (min-width:1400px) {
     .container {
-        min-width: 1200px !important;
+        max-width: 1200px !important;
     }
 
-} */
+    .container-lottie {
+        max-width: 1280px !important;
+    }
+}
+
 
 @media (min-width:1920px) {
     .header-bg-img {
@@ -413,6 +415,15 @@
 
     .demo-btn {
         padding: 9px 13px;
+    }
+
+    .header-bg-img {
+        min-height: unset;
+    }
+
+    .py-65 {
+        padding-top: 65px;
+        padding-bottom: 65px;
     }
 }
 
